@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, serif;
+  font-size: 22px;
+}
+p {
+  color: black;
+}
+a {
+  text-decoration: none;
+  border-bottom: 3px solid #39B6D2;
+  color: #39B6D2;
+}
+a:hover {
+  display: inline-block;
+  background-color: #39B6D2;
+  color: white;
+}
+.header {
+  border-top: 4px solid #E02065;
+  background-image: url('https://raw.githubusercontent.com/codeschool-projects/HTMLPortfolioProject/solution/src/bg.jpg');
+  background-size: cover;
+  height: 380px;
+  padding: 0 20px;
+}
+.header h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 60px;
+}
+.header h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.tagline {
+  background-color: snow;
+  padding-left: 50px;
+}
+.tagline h3 {
+  color: grey;
+}
+.skills {
+  padding: 20px 50px;
+  background-color: #E02065;
+  color: white;
+}
+.skills p {
+  color: white;
+}
+footer {
+  padding: 20px 50px;
+}
